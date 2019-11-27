@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Tabs</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="your-class" style="width: 70vw; margin: 0 auto;">
+    <img src="https://via.placeholder.com/550x200.png?text=Slide 1" />
+    <img src="https://via.placeholder.com/550x200.png?text=Slide 2" />
+    <img src="https://via.placeholder.com/550x200.png?text=Slide 3" />
+    <img src="https://via.placeholder.com/550x200.png?text=Slide 4" />
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(() => {
+      $('.your-class').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots: true,
+      });
+    });
+  </script>
+</body>
+
+</html>

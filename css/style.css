@@ -1,0 +1,11 @@
+.slick-next:before {
+    content: ">";
+    color: black;
+    font-size: 30;
+}
+
+.slick-prev:before {
+    content: "<";
+    color: black;
+    font-size: 30;
+}

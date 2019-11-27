@@ -1,0 +1,22 @@
+{
+  "name": "br_lesson_32_js_11_slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saniok333/BR_lesson_32_JS_11_Slider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saniok333/BR_lesson_32_JS_11_Slider/issues"
+  },
+  "homepage": "https://github.com/saniok333/BR_lesson_32_JS_11_Slider#readme",
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
